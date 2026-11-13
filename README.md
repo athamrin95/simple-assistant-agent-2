@@ -18,3 +18,4 @@ Changelog:
 - Version 1:<br>
 Added 3 tools that the A.I. agent can use: `show_empty_rooms`, `reserve_room`, and `show_reservation` to facilitate user queries on making and checking reservations.<br>
 Reservation data is saved to an external file called `pemesanan.json`, while messages to and from the agents are saved to `riwayat.json`. Note that `pemesanan.json` is always updated at every user query while `riwayat.json` is only updated when the user types `/keluar` to exit the script.<br>
+
